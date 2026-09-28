@@ -59,6 +59,7 @@
  */
 import { cpSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { contentFingerprint, RELEASE_FILE } from './fingerprint.ts';
 
 const ROOT = join(import.meta.dirname, '..', '..');
 const SRC = join(ROOT, process.env.NEXT_DIST_DIR ?? '.next-toy');
@@ -172,11 +173,14 @@ function main(): void {
     writeFileSync(f, text);
   }
 
+  const fingerprint = contentFingerprint();
+  writeFileSync(join(OUT, RELEASE_FILE), `${JSON.stringify({ fingerprint, builtAt: new Date().toISOString() })}\n`);
+
   const kept = walk(OUT);
   const total = kept.reduce((n, f) => n + statSync(f).size, 0);
   console.log(`删除预取负载 ${dropped} 个（${(droppedBytes / 1048576).toFixed(0)} MB）`);
   console.log(`剥前缀：${html} 个 HTML（补 ${links} 条目录链接）、${js} 个 JS、${css} 个 CSS`);
-  console.log(`产出 ${OUT}：${kept.length} 个文件，${(total / 1048576).toFixed(0)} MB`);
+  console.log(`产出 ${OUT}：${kept.length} 个文件，${(total / 1048576).toFixed(0)} MB，内容指纹 ${fingerprint}`);
 }
 
 main();
