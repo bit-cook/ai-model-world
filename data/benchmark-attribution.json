@@ -857,6 +857,28 @@
         "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5"
       }
     },
+    "anthropic/claude-sonnet-5-5": {
+      "frontier_code": {
+        "attributionType": "vendor-self-reported",
+        "key": "frontier_code",
+        "league": "frontier_code",
+        "metric": "score",
+        "rawName": "FrontierCode",
+        "score": 46.2,
+        "sourceHost": "anthropic.com",
+        "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5"
+      },
+      "terminal_bench": {
+        "attributionType": "vendor-self-reported",
+        "key": "terminal_bench",
+        "league": "terminal_bench",
+        "metric": "score",
+        "rawName": "Terminal-Bench",
+        "score": 70.6,
+        "sourceHost": "anthropic.com",
+        "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5"
+      }
+    },
     "cohere/command-a-03-2025": {
       "aider_polyglot": {
         "attributionType": "third-party",
@@ -3490,5 +3512,5 @@
       }
     }
   },
-  "generatedAt": "2026-09-28T13:48:53.020Z"
+  "generatedAt": "2026-09-29T01:57:56.810Z"
 }
