@@ -27,7 +27,7 @@
     {
       "id": "aime",
       "inEci": true,
-      "models": 193,
+      "models": 194,
       "randomBaseline": 0.1,
       "releaseDate": "2024-12-19",
       "scoreCeiling": 100,
@@ -39,7 +39,7 @@
     {
       "id": "ale_bench",
       "inEci": false,
-      "models": 146,
+      "models": 145,
       "randomBaseline": null,
       "releaseDate": "2025-06-10",
       "scoreCeiling": null,
@@ -63,7 +63,7 @@
     {
       "id": "apex_agents",
       "inEci": true,
-      "models": 39,
+      "models": 37,
       "randomBaseline": 0,
       "releaseDate": "2026-01-21",
       "scoreCeiling": 100,
@@ -75,7 +75,7 @@
     {
       "id": "arc_agi",
       "inEci": true,
-      "models": 110,
+      "models": 108,
       "randomBaseline": 0,
       "releaseDate": "2019-11-05",
       "scoreCeiling": 100,
@@ -87,7 +87,7 @@
     {
       "id": "arc_agi_2",
       "inEci": true,
-      "models": 111,
+      "models": 109,
       "randomBaseline": 0,
       "releaseDate": "2025-03-24",
       "scoreCeiling": 100,
@@ -315,7 +315,7 @@
     {
       "id": "critpt",
       "inEci": false,
-      "models": 171,
+      "models": 169,
       "randomBaseline": 0,
       "releaseDate": "2025-09-30",
       "scoreCeiling": 100,
@@ -375,7 +375,7 @@
     {
       "id": "dtbench",
       "inEci": true,
-      "models": 208,
+      "models": 206,
       "randomBaseline": 40,
       "releaseDate": "2026-08-12",
       "scoreCeiling": 100,
@@ -447,7 +447,7 @@
     {
       "id": "frontier_code",
       "inEci": true,
-      "models": 42,
+      "models": 40,
       "randomBaseline": 0,
       "releaseDate": "2026-06-08",
       "scoreCeiling": 100,
@@ -458,7 +458,7 @@
     },
     {
       "id": "frontier_swe",
-      "inEci": false,
+      "inEci": true,
       "models": 19,
       "randomBaseline": 0,
       "releaseDate": "2026-09-02",
@@ -507,7 +507,7 @@
     {
       "id": "frontiermath_tier_4_v2",
       "inEci": true,
-      "models": 73,
+      "models": 74,
       "randomBaseline": 0,
       "releaseDate": "2026-06-12",
       "scoreCeiling": 100,
@@ -519,7 +519,7 @@
     {
       "id": "frontiermath_tiers_1_3_v2",
       "inEci": true,
-      "models": 101,
+      "models": 102,
       "randomBaseline": 0,
       "releaseDate": "2026-06-12",
       "scoreCeiling": 100,
@@ -531,7 +531,7 @@
     {
       "id": "furniture_assembly",
       "inEci": true,
-      "models": 32,
+      "models": 33,
       "randomBaseline": 30,
       "releaseDate": "2026-09-23",
       "scoreCeiling": 100,
@@ -579,7 +579,7 @@
     {
       "id": "gpqa_diamond",
       "inEci": true,
-      "models": 198,
+      "models": 199,
       "randomBaseline": 25,
       "releaseDate": "2023-11-20",
       "scoreCeiling": 100,
@@ -651,7 +651,7 @@
     {
       "id": "livebench_agentic_coding",
       "inEci": false,
-      "models": 105,
+      "models": 106,
       "randomBaseline": null,
       "releaseDate": null,
       "scoreCeiling": null,
@@ -663,7 +663,7 @@
     {
       "id": "livebench_coding",
       "inEci": false,
-      "models": 125,
+      "models": 126,
       "randomBaseline": null,
       "releaseDate": null,
       "scoreCeiling": null,
@@ -711,7 +711,7 @@
     {
       "id": "lmca",
       "inEci": true,
-      "models": 193,
+      "models": 191,
       "randomBaseline": 0,
       "releaseDate": "2026-08-12",
       "scoreCeiling": 85,
@@ -795,7 +795,7 @@
     {
       "id": "mystery_game_puzzles",
       "inEci": true,
-      "models": 92,
+      "models": 94,
       "randomBaseline": 9.22,
       "releaseDate": "2026-07-30",
       "scoreCeiling": 100,
@@ -939,7 +939,7 @@
     {
       "id": "simpleqa_verified",
       "inEci": true,
-      "models": 98,
+      "models": 99,
       "randomBaseline": 0,
       "releaseDate": "2025-09-09",
       "scoreCeiling": 100,
@@ -1179,7 +1179,7 @@
     {
       "id": "webdev_arena_elo",
       "inEci": false,
-      "models": 126,
+      "models": 128,
       "randomBaseline": null,
       "releaseDate": "2024-12-10",
       "scoreCeiling": null,
@@ -1203,7 +1203,7 @@
     {
       "id": "weirdml_v3",
       "inEci": false,
-      "models": 14,
+      "models": 12,
       "randomBaseline": 0,
       "releaseDate": "2026-09-18",
       "scoreCeiling": 100,
@@ -1225,7 +1225,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-09-29T13:48:55.782Z",
+  "generatedAt": "2026-09-30T02:00:50.610Z",
   "models": [
     {
       "benchmarks": {
@@ -21470,7 +21470,7 @@
         "swe_bench_pro": null,
         "swe_bench_vendor": null,
         "swe_bench_verified": null,
-        "webdev_arena_elo": null
+        "webdev_arena_elo": 1820.31
       },
       "capabilities": {
         "promptCaching": true,
@@ -21526,6 +21526,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "webdev_arena_elo",
+          "score": 1820.31,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "elo"
         }
       ],
       "contextWindow": 1000000,
@@ -21562,6 +21570,7 @@
         "benchmarks.aime": "epoch.ai",
         "benchmarks.arc_agi_2": "epoch.ai",
         "benchmarks.gpqa_diamond": "epoch.ai",
+        "benchmarks.webdev_arena_elo": "epoch.ai",
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
@@ -21731,6 +21740,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "mystery_game_puzzles",
+          "score": 71,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "proofbench",
           "score": 100,
           "source": "epoch.ai",
@@ -21752,6 +21769,14 @@
           "source": "models.dev",
           "sourceUrl": "https://www.anthropic.com/claude-opus-5-5",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "webdev_arena_elo",
+          "score": 1820.31,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "elo"
         },
         {
           "attribution": "third-party",
@@ -24346,15 +24371,15 @@
     },
     {
       "benchmarks": {
-        "aime": null,
+        "aime": 100,
         "arc_agi_2": null,
         "eci": null,
         "fiction_live": null,
-        "gpqa_diamond": null,
+        "gpqa_diamond": 95.58,
         "swe_bench_pro": null,
         "swe_bench_vendor": null,
         "swe_bench_verified": null,
-        "webdev_arena_elo": null
+        "webdev_arena_elo": 1698.82
       },
       "capabilities": {
         "promptCaching": true,
@@ -24402,6 +24427,22 @@
           "source": "epoch.ai",
           "sourceUrl": "https://cognition.com/frontiercode",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 1819.12,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        },
+        {
+          "attribution": "third-party",
+          "league": "webdev_arena_elo",
+          "score": 1698.82,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "elo"
         }
       ],
       "contextWindow": 1000000,
@@ -24435,6 +24476,9 @@
         "outputPerMTok": 10
       },
       "provenance": {
+        "benchmarks.aime": "epoch.ai",
+        "benchmarks.gpqa_diamond": "epoch.ai",
+        "benchmarks.webdev_arena_elo": "epoch.ai",
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
@@ -24458,6 +24502,22 @@
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
+        {
+          "attribution": "third-party",
+          "league": "aime",
+          "score": 100,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 1819.12,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        },
         {
           "attribution": "third-party",
           "league": "apex_agents",
@@ -24500,6 +24560,38 @@
         },
         {
           "attribution": "third-party",
+          "league": "frontiermath_tier_4_v2",
+          "score": 80.49,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "frontiermath_tiers_1_3_v2",
+          "score": 88.77,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "furniture_assembly",
+          "score": 75,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gpqa_diamond",
+          "score": 95.58,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "livebench_agentic_coding",
           "score": 56.31,
           "source": "livebench",
@@ -24516,10 +24608,26 @@
         },
         {
           "attribution": "third-party",
+          "league": "mystery_game_puzzles",
+          "score": 65,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "proofbench",
           "score": 100,
           "source": "epoch.ai",
           "sourceUrl": "https://www.vals.ai/benchmarks/proof_bench",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "simpleqa_verified",
+          "score": 46.5,
+          "source": "epoch.ai",
+          "sourceUrl": null,
           "unit": "pct"
         },
         {
@@ -24529,6 +24637,14 @@
           "source": "models.dev",
           "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "webdev_arena_elo",
+          "score": 1698.82,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "elo"
         }
       ],
       "slug": "anthropic-claude-sonnet-5-5",
@@ -34165,7 +34281,7 @@
         "totalB": 1623.5
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05,
+        "cachedInputPerMTok": 0.047907,
         "inputPerMTok": 1.32,
         "outputPerMTok": 3.96
       },
@@ -34514,8 +34630,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.255552,
-        "outputPerMTok": 1.1592
+        "inputPerMTok": 0.24,
+        "outputPerMTok": 1.08
       },
       "provenance": {
         "benchmarks.eci": "epoch.ai",
@@ -43572,7 +43688,7 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.049,
+        "cachedInputPerMTok": 0.0425,
         "inputPerMTok": 0.1,
         "outputPerMTok": 0.34
       },
@@ -45246,9 +45362,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.012,
-        "inputPerMTok": 0.06,
-        "outputPerMTok": 0.18
+        "cachedInputPerMTok": 0.015,
+        "inputPerMTok": 0.075,
+        "outputPerMTok": 0.22
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -45607,6 +45723,74 @@
       "retiredAt": "2026-09-24",
       "scores": [],
       "slug": "inclusionai-ling-3-0-flash-vl-free",
+      "trainingComputeFlop": null,
+      "vendorId": "inclusionai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": null,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 262144,
+      "firstSeenAt": "2026-09-30T02:00:50.610Z",
+      "id": "inclusionai/ling-3.1-flash",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Ling 3.1 Flash",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 1,
+        "sizeTierBasis": "naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": null,
+        "inputPerMTok": null,
+        "outputPerMTok": null
+      },
+      "provenance": {
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-09-29",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "inclusionai-ling-3-1-flash",
       "trainingComputeFlop": null,
       "vendorId": "inclusionai"
     },
@@ -53237,8 +53421,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.34134,
-        "outputPerMTok": 0.45512
+        "inputPerMTok": 0.34065,
+        "outputPerMTok": 0.4542
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -76308,14 +76492,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 4,
+        "sizeTier": 5,
         "sizeTierBasis": "price+naming",
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.2,
-        "inputPerMTok": 2,
-        "outputPerMTok": 10
+        "cachedInputPerMTok": 0.4,
+        "inputPerMTok": 4,
+        "outputPerMTok": 20
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -77341,7 +77525,7 @@
     {
       "benchmarks": {
         "aime": null,
-        "arc_agi_2": 59.31,
+        "arc_agi_2": null,
         "eci": null,
         "fiction_live": null,
         "gpqa_diamond": null,
@@ -77364,22 +77548,6 @@
           "source": "models.dev",
           "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
           "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "frontier_code",
-          "score": 42.42,
-          "source": "epoch.ai",
-          "sourceUrl": "https://cognition.com/frontiercode",
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "ale_bench",
-          "score": 1576.92,
-          "source": "epoch.ai",
-          "sourceUrl": "https://epoch.ai/benchmarks",
-          "unit": "index"
         }
       ],
       "contextWindow": 1050000,
@@ -77413,7 +77581,6 @@
         "outputPerMTok": 0.5
       },
       "provenance": {
-        "benchmarks.arc_agi_2": "epoch.ai",
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.structuredOutput": "models.dev",
@@ -77439,46 +77606,6 @@
       "retiredAt": null,
       "scores": [
         {
-          "attribution": "third-party",
-          "league": "ale_bench",
-          "score": 1576.92,
-          "source": "epoch.ai",
-          "sourceUrl": "https://epoch.ai/benchmarks",
-          "unit": "index"
-        },
-        {
-          "attribution": "third-party",
-          "league": "apex_agents",
-          "score": 44.3,
-          "source": "epoch.ai",
-          "sourceUrl": null,
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "arc_agi",
-          "score": 86.67,
-          "source": "epoch.ai",
-          "sourceUrl": null,
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "arc_agi_2",
-          "score": 59.31,
-          "source": "epoch.ai",
-          "sourceUrl": "https://epoch.ai/benchmarks",
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "critpt",
-          "score": 19.43,
-          "source": "epoch.ai",
-          "sourceUrl": null,
-          "unit": "pct"
-        },
-        {
           "attribution": "vendor-self-reported",
           "league": "deepswe",
           "score": 66.6,
@@ -77488,42 +77615,10 @@
         },
         {
           "attribution": "third-party",
-          "league": "dtbench",
-          "score": 90.13,
-          "source": "epoch.ai",
-          "sourceUrl": "https://conceptualreasoning.ai/dtbench",
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "frontier_code",
-          "score": 42.42,
-          "source": "epoch.ai",
-          "sourceUrl": "https://cognition.com/frontiercode",
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
           "league": "furniture_assembly",
           "score": 44.17,
           "source": "epoch.ai",
           "sourceUrl": null,
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "lmca",
-          "score": 44.49,
-          "source": "epoch.ai",
-          "sourceUrl": "https://conceptualreasoning.ai/lmca",
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "weirdml_v3",
-          "score": 7.66,
-          "source": "epoch.ai",
-          "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
         }
       ],
@@ -77605,7 +77700,7 @@
     {
       "benchmarks": {
         "aime": null,
-        "arc_agi_2": 89.58,
+        "arc_agi_2": null,
         "eci": null,
         "fiction_live": null,
         "gpqa_diamond": null,
@@ -77628,22 +77723,6 @@
           "source": "models.dev",
           "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
           "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "frontier_code",
-          "score": 49.27,
-          "source": "epoch.ai",
-          "sourceUrl": "https://cognition.com/frontiercode",
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "ale_bench",
-          "score": 2462,
-          "source": "epoch.ai",
-          "sourceUrl": "https://epoch.ai/benchmarks",
-          "unit": "index"
         }
       ],
       "contextWindow": 1050000,
@@ -77677,7 +77756,6 @@
         "outputPerMTok": 10
       },
       "provenance": {
-        "benchmarks.arc_agi_2": "epoch.ai",
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.structuredOutput": "models.dev",
@@ -77703,59 +77781,11 @@
       "retiredAt": null,
       "scores": [
         {
-          "attribution": "third-party",
-          "league": "ale_bench",
-          "score": 2462,
-          "source": "epoch.ai",
-          "sourceUrl": "https://epoch.ai/benchmarks",
-          "unit": "index"
-        },
-        {
-          "attribution": "third-party",
-          "league": "apex_agents",
-          "score": 54.3,
-          "source": "epoch.ai",
-          "sourceUrl": null,
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "arc_agi",
-          "score": 95.5,
-          "source": "epoch.ai",
-          "sourceUrl": null,
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "arc_agi_2",
-          "score": 89.58,
-          "source": "epoch.ai",
-          "sourceUrl": "https://epoch.ai/benchmarks",
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "critpt",
-          "score": 30.86,
-          "source": "epoch.ai",
-          "sourceUrl": null,
-          "unit": "pct"
-        },
-        {
           "attribution": "vendor-self-reported",
           "league": "deepswe",
           "score": 68.8,
           "source": "models.dev",
           "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "dtbench",
-          "score": 97.33,
-          "source": "epoch.ai",
-          "sourceUrl": "https://conceptualreasoning.ai/dtbench",
           "unit": "pct"
         },
         {
@@ -77768,34 +77798,10 @@
         },
         {
           "attribution": "third-party",
-          "league": "frontier_code",
-          "score": 49.27,
-          "source": "epoch.ai",
-          "sourceUrl": "https://cognition.com/frontiercode",
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
           "league": "furniture_assembly",
           "score": 58.33,
           "source": "epoch.ai",
           "sourceUrl": null,
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "lmca",
-          "score": 59.08,
-          "source": "epoch.ai",
-          "sourceUrl": "https://conceptualreasoning.ai/lmca",
-          "unit": "pct"
-        },
-        {
-          "attribution": "third-party",
-          "league": "weirdml_v3",
-          "score": 19.73,
-          "source": "epoch.ai",
-          "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
         }
       ],
@@ -77871,6 +77877,189 @@
       "retiredAt": null,
       "scores": [],
       "slug": "openai-gpt-6-sol-pro",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": true,
+        "toolCall": true
+      },
+      "coding": [
+        {
+          "attribution": "third-party",
+          "league": "livebench_coding",
+          "score": 80.74,
+          "source": "livebench",
+          "sourceUrl": "https://livebench.ai/#/?release=2026-06-25",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "livebench_agentic_coding",
+          "score": 56.77,
+          "source": "livebench",
+          "sourceUrl": "https://livebench.ai/#/?release=2026-06-25",
+          "unit": "pct"
+        }
+      ],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-09-30T02:00:50.610Z",
+      "id": "openai/gpt-6.1-sol",
+      "knowledgeCutoff": "2026-04-30",
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 3,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.1,
+        "inputPerMTok": 2,
+        "outputPerMTok": 10
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.structuredOutput": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "coding": "derived",
+        "contextWindow": "models.dev",
+        "knowledgeCutoff": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "scores": "derived",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-09-29",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [
+        {
+          "attribution": "third-party",
+          "league": "livebench_agentic_coding",
+          "score": 56.77,
+          "source": "livebench",
+          "sourceUrl": "https://livebench.ai/#/?release=2026-06-25",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "livebench_coding",
+          "score": 80.74,
+          "source": "livebench",
+          "sourceUrl": "https://livebench.ai/#/?release=2026-06-25",
+          "unit": "pct"
+        }
+      ],
+      "slug": "openai-gpt-6-1-sol",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": null,
+        "structuredOutput": null,
+        "toolCall": null
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-09-30T02:00:50.610Z",
+      "id": "openai/gpt-6.1-sol-pro",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT 6.1 SOL PRO",
+      "openWeights": null,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 4,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.1,
+        "inputPerMTok": 2,
+        "outputPerMTok": 10
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "contextWindow": "openrouter",
+        "maxOutput": "openrouter",
+        "modalities": "openrouter",
+        "name": "derived",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
+        "releaseDate": "openrouter",
+        "releaseDatePrecision": "openrouter",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-09-29",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "openai-gpt-6-1-sol-pro",
       "trainingComputeFlop": null,
       "vendorId": "openai"
     },
@@ -82218,7 +82407,7 @@
         "modalities": "openrouter",
         "name": "derived",
         "params.totalB": "derived",
-        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.cachedInputPerMTok": "litellm",
         "pricing.inputPerMTok": "litellm",
         "pricing.outputPerMTok": "litellm",
         "releaseDate": "openrouter",
@@ -95172,43 +95361,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-09-29T13:48:55.782Z",
+      "fetchedAt": "2026-09-30T02:00:50.610Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-09-29T13:48:55.782Z",
-      "note": "ZIP 89 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 78 个；训练算力 326 行；去重后 412 个模型实体；合规拦截 1 个文件",
+      "fetchedAt": "2026-09-30T02:00:50.610Z",
+      "note": "ZIP 89 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 78 个；训练算力 326 行；去重后 411 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-09-29T13:48:55.782Z",
+      "fetchedAt": "2026-09-30T02:00:50.610Z",
       "note": "请求 164 个开源模型，成功 160，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-09-29T13:48:55.782Z",
-      "note": "4421 条（对话类 3529 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-09-30T02:00:50.610Z",
+      "note": "4436 条（对话类 3544 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-09-29T13:48:55.782Z",
+      "fetchedAt": "2026-09-30T02:00:50.610Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-09-29T13:48:55.782Z",
+      "fetchedAt": "2026-09-30T02:00:50.610Z",
       "note": "7/7 个分榜，共 320 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-09-29T13:48:55.782Z",
-      "note": "models.json 432 条；api.json 225 provider / 8274 条；benchmarks[] 1082 条，已拦截 AA 血缘 174 条，非编程口径跳过 549 条",
+      "fetchedAt": "2026-09-30T02:00:50.610Z",
+      "note": "models.json 434 条；api.json 225 provider / 8323 条；benchmarks[] 1082 条，已拦截 AA 血缘 174 条，非编程口径跳过 549 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-09-29T13:48:55.782Z",
-      "note": "460 条；已剔除 artificial_analysis 191 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-09-30T02:00:50.610Z",
+      "note": "464 条；已剔除 artificial_analysis 193 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -95217,8 +95406,8 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-09-29T13:48:55.782Z",
-      "note": "390 条（language 264 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-09-30T02:00:50.610Z",
+      "note": "395 条（language 268 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
